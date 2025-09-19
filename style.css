@@ -1,0 +1,133 @@
+html {
+	background-color: rgb(241, 167, 231); /* a very light pink background for the entire HTML document */
+	font-family: Arial, sans-serif; /* a clean, sans-serif font for better readability */
+}
+body {
+	background: linear-gradient(pink, rgb(234, 155, 234)); /* gradient background from pink to purple */
+	margin: 20px; /* added margin around the body for better spacing */
+}
+
+h1 {
+	color: black; /* black color for the heading text */
+	text-align: center; /* center the h1 text */
+}
+
+p {
+	color: rgb(59, 25, 59); /* A slightly lighter violet for the paragraph text */
+	line-height: 1.6; /* increased the space between lines for readability */
+}
+
+
+
+
+.profile-img {
+  width: 100px; /* Adjust as needed */
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* All styling for the header section */
+.header {
+  display: flex;
+  justify-content: space-between; /* Pushes content to the ends */
+  align-items: center; /* Vertically centers the items */
+  padding: 20px;
+}
+
+
+/* Styles for the name and title section */
+.name-section {
+  flex-grow: 1; /* Makes this section take up all available space */
+  text-align: center; /* Centers the name and title within this container */
+}
+
+/* Styles for the contact information section */
+.contact-info {
+  text-align: right; /* Aligns the text to the right side of its container */
+}
+
+/* A general rule to remove default margins for clean spacing */
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+/* Specific rule for the table to center it */
+table {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Specific rule for the unordered list to center it */
+ul {
+	list-style-type: disc; /* standard bullet points for the list */
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Keep list items left-aligned for readability */
+li {
+	margin-bottom: 10px; /* space between list items */
+  text-align: left;
+}
+
+
+table {
+	width: 50%;
+	margin: 0 auto; /* center the table */
+	border-collapse: collapse; /* ensures borders are collapsed for a cleaner look */
+	width: 50%; /* set a width for the table */
+}
+Td, th {
+	padding: 10px; /* space inside table cells */
+}
+
+
+h1 {text-align: center;}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px; /* space below h2 for better separation */
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px; /* space below h3 for better separation */
+}
+
+p {text-align: center;}
+li {text-align: left;}
+ul {
+	width:50%; /* set a width for the list */
+	margin: 0 auto; /* center the list */
+}
+
+body {
+	font-family: 'open sans', sans-serif; /* modern, clean font for better readability */
+	line-height: 1.6; /* increased line height for better readability */
+	color: #333; /* dark gray text for better contrast */
+}
+
+main-section {
+	padding: 20px;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: #ccc; /* light gray line for separation */
+	margin: 20px 0; /* space above and below the line */
+}
+
+a {
+	color:rgb(220, 35, 241); /* aquamarine color for links */
+	text-decoration: none; /* remove underline from links */
+}
+a:hover {
+	text-decoration: underline; /* underline on hover for better interactivity */
+}
+
+.cv-container {
+	background-color: #fff; /* light background for the CV content */
+	padding: 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+}
